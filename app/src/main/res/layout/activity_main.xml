@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mLayout"
+    tools:context="com.interativastudio.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/my_title"
+        style="@style/myTitle"
+        android:text="@string/my_nanodegree_apps" />
+
+    <Button
+        android:id="@+id/btn_popular_movies"
+        style="@style/mButtons"
+        android:text="@string/popular_movies" />
+
+    <Button
+        android:id="@+id/btn_stock_hawk"
+        style="@style/mButtons"
+        android:text="@string/stock_hawk" />
+
+    <Button
+        android:id="@+id/btn_build_it_bigger"
+        style="@style/mButtons"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        android:id="@+id/btn_make_material"
+        style="@style/mButtons"
+        android:text="@string/make_your_app_material" />
+
+    <Button
+        android:id="@+id/btn_go_obiquitous"
+        style="@style/mButtons"
+        android:text="@string/go_obiquitous" />
+
+    <Button
+        android:id="@+id/btn_capstone"
+        style="@style/specialButton"
+        android:text="@string/capstone_my_own_app" />
+
+</LinearLayout>
