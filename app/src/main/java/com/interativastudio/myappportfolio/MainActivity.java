@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
 
      private void showMessage(String mtext){
-        Toast toast = Toast.makeText(getApplicationContext(),mtext,Toast.LENGTH_LONG );
-        toast.show();
+        Toast.makeText(getApplicationContext(),mtext,Toast.LENGTH_LONG ).show();
     }
 }
